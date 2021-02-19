@@ -39,7 +39,7 @@ const routes = [
     }
   },
   {
-    path: '/detail',
+    path: '/detail/:iid',
     component: Detail,
     meta:{
       title: '详情'
